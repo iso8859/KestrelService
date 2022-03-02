@@ -1,9 +1,12 @@
 # KestrelService
-Run Kestrel server in service mode with TopShelf library
+
+How to run a Kestrel server from a service ?
+
+Topshelf is a great Windows service helper. We also need to log in a file.
 
 Add reference to NReco.Logging.File and to TopShelf
 
-Have a look at appsettings.json for file logginf config and Kestrel binding
+Don't forget to have a look at appsettings.json for file logging config and Kestrel binding
 
 Run KestrelService.exe for direct usage and debug.
 
