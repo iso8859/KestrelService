@@ -6,6 +6,8 @@ Topshelf is a great Windows service helper. We also need to log in a file.
 
 Add reference to NReco.Logging.File and to TopShelf
 
+Have a look at Program.cs and Startup.cs for adaptation.
+
 Don't forget to have a look at appsettings.json for file logging config and Kestrel binding
 
 Run KestrelService.exe for direct usage and debug.
